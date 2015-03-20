@@ -1,0 +1,22 @@
+{
+  "name": "uk-political-parties",
+  "main": "index.js",
+  "version": "0.0.0",
+  "homepage": "https://github.com/ft-interactive/uk-political-parties",
+  "authors": [
+    "tomgp <tom.g.pearson@gmail.com>"
+  ],
+  "description": "resolve/ normalise UK political party names",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
