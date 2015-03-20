@@ -1,5 +1,5 @@
 'use strict';
-var _ = require('lodash');
+
 var parties = require('./index.js');
 
 function check(n){
@@ -63,7 +63,7 @@ var fails = {};
 tests.forEach(function(t){
   console.log('Test : ', t.name);
   fails[t.name] = 0;
-  pass = _.reduce(t.assertions,function(value, n){ fails[t.name] += check(n); return (value && n); }, pass);
+  pass = t.assertions.reduce(function(value, n){ fails[t.name] += check(n); return (value && n); }, pass);
   console.log();
 });
 
