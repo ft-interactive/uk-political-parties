@@ -98,6 +98,7 @@ function converter(to,from){
   return function(str){
     for(var item in data){
       if(data[item][from] === str){
+        if(to === 'code'){ return item; }
         return data[item][to];
       }
     }
@@ -112,6 +113,7 @@ module.exports = (function(){
     colour:converter('colour'),
     secondaryColour:converter('secondaryColour'),
     populousToFullName:converter('full','populous'),
+    fullNameToCode:converter('code','full'),
     converter:converter
   };
 }(data));

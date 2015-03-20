@@ -46,11 +46,20 @@ var tests = [
       (parties.populousToFullName('Labour') === 'Labour'),
       (parties.populousToFullName('UKIP') === 'Ukip')
     ]
+  },
+  {
+    name:'Full Name To Code',
+    assertions:[
+    (parties.fullNameToCode('Conservatives') === 'c'),
+    (parties.fullNameToCode('Labour') === 'lab'),
+    (parties.fullNameToCode('Ukip') === 'ukip')
+    ]
   }
 ];
 
 var pass = true;
 var fails = {};
+
 tests.forEach(function(t){
   console.log('Test : ', t.name);
   fails[t.name] = 0;
