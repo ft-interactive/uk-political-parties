@@ -27,7 +27,7 @@ var tests = [
     name:'Full Names',
     assertions:[
       (parties.fullName('lab') === 'Labour'),
-      (parties.fullName('c') === 'Conservative'),
+      (parties.fullName('c') === 'Conservatives'),
       (parties.fullName('ukip') === 'Ukip')
     ]
   },
@@ -42,7 +42,7 @@ var tests = [
   {
     name:'Populous To Full Name',
     assertions:[
-      (parties.populousToFullName('Tory') === 'Conservative'),
+      (parties.populousToFullName('Tory') === 'Conservatives'),
       (parties.populousToFullName('Labour') === 'Labour'),
       (parties.populousToFullName('UKIP') === 'Ukip')
     ]
@@ -50,7 +50,7 @@ var tests = [
   {
     name:'Full Name To Code',
     assertions:[
-    (parties.fullNameToCode('Conservative') === 'c'),
+    (parties.fullNameToCode('Conservatives') === 'c'),
     (parties.fullNameToCode('Labour') === 'lab'),
     (parties.fullNameToCode('Ukip') === 'ukip')
     ]
