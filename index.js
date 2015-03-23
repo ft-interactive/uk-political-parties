@@ -11,7 +11,7 @@ var data = {
   },
   'c':{
     short:'Con',
-    full:'Conservatives',
+    full:'Conservative',
     class:'conservative',
     populous:'Tory',
     colour:'#6da8e1',
