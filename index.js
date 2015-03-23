@@ -4,6 +4,7 @@ var data = {
   'lab':{
     short:'Lab',
     full:'Labour',
+    class:'labour',
     populous:'Labour',
     colour:'#e25050',
     secondaryColour:'#bf1f1f'
@@ -11,6 +12,7 @@ var data = {
   'c':{
     short:'Con',
     full:'Conservatives',
+    class:'conservative',
     populous:'Tory',
     colour:'#6da8e1',
     secondaryColour:'#1369bf'
@@ -18,6 +20,7 @@ var data = {
   'ld':{
     short:'LD',
     full:'Liberal Democrats',
+    class:'lib-dem',
     populous:'Lib Dem',
     colour:'#ffc660',
     secondaryColour:'#dba436'
@@ -25,6 +28,7 @@ var data = {
   'green':{
     short:'Grn',
     full:'Greens',
+    class:'green',
     populous:'Green',
     colour:'#65a68c',
     secondaryColour:'#008066'
@@ -32,6 +36,7 @@ var data = {
   'ukip':{
     short:'Ukip',
     full:'Ukip',
+    class:'ukip',
     populous:'UKIP',
     colour:'#ca6dbf',
     secondaryColour:'#b3009d'
@@ -39,6 +44,7 @@ var data = {
   'snp':{
     short:'SNP',
     full:'SNP',
+    class:'snp',
     populous:'SNP',
     colour:'#777777',
     secondaryColour:'#666666'
@@ -46,6 +52,7 @@ var data = {
   'dup':{
     short:'DUP',
     full:'DUP',
+    class:'dup',
     populous:'DUP',
     colour:'#827996',
     secondaryColour:'#443e71'
@@ -53,6 +60,7 @@ var data = {
   'sf':{
     short:'SF',
     full:'SF',
+    class:'sf',
     populous:'SF',
     colour:'#99bf70',
     secondaryColour:'#9cb157'
@@ -60,6 +68,7 @@ var data = {
   'pc':{
     short:'PC',
     full:'Plaid Cymru',
+    class:'pc',
     populous:'PC',
     colour:'#99d2d0',
     secondaryColour:'#54a19c'
@@ -67,6 +76,7 @@ var data = {
   'alliance':{
     short:'A',
     full:'Alliance',
+    class:'alliance',
     populous:'Alliance',
     colour:'#cccccc',
     secondaryColour:'#999999'
@@ -75,12 +85,14 @@ var data = {
     short:'Oth',
     full:'Other',
     populous:'Other',
+    class:'other-party',
     colour:'#cccccc',
     secondaryColour:'#999999'
   },
   'sdlp':{
     short:'SDLP',
     full:'SDLP',
+    class:'sdlp',
     populous:'SDLP',
     colour:'#cccccc',
     secondaryColour:'#999999'
@@ -111,6 +123,7 @@ module.exports = (function(){
   return {
     fullName:converter('full'),
     shortName:converter('short'),
+    className:converter('class'),
     colour:converter('colour'),
     secondaryColour:converter('secondaryColour'),
     populousToFullName:converter('full','populous'),
