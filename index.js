@@ -110,6 +110,7 @@ function converter(to,from){
 module.exports = (function(){
   return {
     fullName:converter('full'),
+    shortName:converter('short'),
     colour:converter('colour'),
     secondaryColour:converter('secondaryColour'),
     populousToFullName:converter('full','populous'),
