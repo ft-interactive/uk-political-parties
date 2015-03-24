@@ -16,7 +16,7 @@ var data = {
     class:'conservative',
     populous:'Tory',
     colour:'#6da8e1',
-    electionForecast:'Labour',
+    electionForecast:'Conservatives',
     secondaryColour:'#1369bf'
   },
   'ld':{
@@ -43,7 +43,7 @@ var data = {
     class:'ukip',
     populous:'UKIP',
     colour:'#ca6dbf',
-    electionForecast:'',
+    electionForecast:'UKIP',
     secondaryColour:'#b3009d'
   },
   'snp':{
@@ -140,7 +140,7 @@ module.exports = (function(){
     secondaryColour:converter('secondaryColour'),
     populousToFullName:converter('full','populous'),
     fullNameToCode:converter('code','full'),
-    electionForecastToCode:converter('electionForecast'),
+    electionForecastToCode:converter('code','electionForecast'),
     converter:converter
   };
 }(data));
