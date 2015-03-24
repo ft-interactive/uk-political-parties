@@ -7,6 +7,7 @@ var data = {
     class:'labour',
     populous:'Labour',
     colour:'#e25050',
+    electionForecast:'Labour',
     secondaryColour:'#bf1f1f'
   },
   'c':{
@@ -15,6 +16,7 @@ var data = {
     class:'conservative',
     populous:'Tory',
     colour:'#6da8e1',
+    electionForecast:'Labour',
     secondaryColour:'#1369bf'
   },
   'ld':{
@@ -23,6 +25,7 @@ var data = {
     class:'lib-dem',
     populous:'Lib Dem',
     colour:'#ffc660',
+    electionForecast:'Liberal Democrats',
     secondaryColour:'#dba436'
   },
   'green':{
@@ -31,6 +34,7 @@ var data = {
     class:'green',
     populous:'Green',
     colour:'#65a68c',
+    electionForecast:'Greens',
     secondaryColour:'#008066'
   },
   'ukip':{
@@ -39,6 +43,7 @@ var data = {
     class:'ukip',
     populous:'UKIP',
     colour:'#ca6dbf',
+    electionForecast:'',
     secondaryColour:'#b3009d'
   },
   'snp':{
@@ -47,6 +52,7 @@ var data = {
     class:'snp',
     populous:'SNP',
     colour:'#777777',
+    electionForecast:'SNP',
     secondaryColour:'#666666'
   },
   'dup':{
@@ -55,14 +61,16 @@ var data = {
     class:'dup',
     populous:'DUP',
     colour:'#827996',
+    electionForecast:'DUP',
     secondaryColour:'#443e71'
   },
   'sf':{
     short:'SF',
-    full:'SF',
+    full:'Sinn Fein',
     class:'sf',
     populous:'SF',
     colour:'#99bf70',
+    electionForecast:'SF',
     secondaryColour:'#9cb157'
   },
   'pc':{
@@ -71,6 +79,7 @@ var data = {
     class:'pc',
     populous:'PC',
     colour:'#99d2d0',
+    electionForecast:'Plaid Cymru',
     secondaryColour:'#54a19c'
   },
   'alliance':{
@@ -79,6 +88,7 @@ var data = {
     class:'alliance',
     populous:'Alliance',
     colour:'#cccccc',
+    electionForecast:'Alliance',
     secondaryColour:'#999999'
   },
   'other':{
@@ -87,6 +97,7 @@ var data = {
     populous:'Other',
     class:'other-party',
     colour:'#cccccc',
+    electionForecast:'Other',
     secondaryColour:'#999999'
   },
   'sdlp':{
@@ -95,6 +106,7 @@ var data = {
     class:'sdlp',
     populous:'SDLP',
     colour:'#cccccc',
+    electionForecast:'SDLP',
     secondaryColour:'#999999'
   }
 };
@@ -128,6 +140,7 @@ module.exports = (function(){
     secondaryColour:converter('secondaryColour'),
     populousToFullName:converter('full','populous'),
     fullNameToCode:converter('code','full'),
+    electionForecastToCode:converter('electionForecast'),
     converter:converter
   };
 }(data));
