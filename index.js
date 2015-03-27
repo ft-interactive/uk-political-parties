@@ -136,6 +136,7 @@ module.exports = (function(){
     fullName:converter('full'),
     shortName:converter('short'),
     className:converter('class'),
+    electionForecastName:converter('electionForecast'),
     colour:converter('colour'),
     secondaryColour:converter('secondaryColour'),
     populousToFullName:converter('full','populous'),

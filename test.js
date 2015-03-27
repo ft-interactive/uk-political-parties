@@ -62,6 +62,14 @@ var tests = [
     (parties.electionForecastToCode('Labour') === 'lab'),
     (parties.electionForecastToCode('UKIP') === 'ukip')
     ]
+  },
+  {
+    name:'Code to Election Forecast',
+    assertions:[
+      (parties.electionForecastToCode('c') === 'Conservatives'),
+      (parties.electionForecastToCode('lab') === 'Labour'),
+      (parties.electionForecastToCode('ukip') === 'UKIP')
+    ]
   }
 ];
 
