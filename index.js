@@ -51,9 +51,9 @@ var data = {
     full:'SNP',
     class:'snp',
     populous:'SNP',
-    colour:'#777777',
+    colour:'#9E9E9E',
     electionForecast:'SNP',
-    secondaryColour:'#666666'
+    secondaryColour:'#787878'
   },
   'dup':{
     short:'DUP',
@@ -71,7 +71,7 @@ var data = {
     populous:'SF',
     colour:'#99bf70',
     electionForecast:'SF',
-    secondaryColour:'#9cb157'
+    secondaryColour:'#6a8d32'
   },
   'pc':{
     short:'PC',
@@ -87,36 +87,36 @@ var data = {
     full:'Alliance',
     class:'alliance',
     populous:'Alliance',
-    colour:'#cccccc',
+    colour:'#ffc660',
     electionForecast:'Alliance',
-    secondaryColour:'#999999'
+    secondaryColour:'#dba436'
   },
   'other':{
     short:'Oth',
     full:'Other',
     populous:'Other',
     class:'other-party',
-    colour:'#cccccc',
+    colour:'#CEC6B9',
     electionForecast:'Other',
-    secondaryColour:'#999999'
+    secondaryColour:'#a7a59b'
   },
   'sdlp':{
     short:'SDLP',
     full:'SDLP',
     class:'sdlp',
     populous:'SDLP',
-    colour:'#cccccc',
+    colour:'#bed676',
     electionForecast:'SDLP',
-    secondaryColour:'#999999'
+    secondaryColour:'#9cb157'
   },
   'uup':{
     short:'UUP',
     full:'UUP',
     class:'uup',
     populous:'UUP',
-    colour:'#cccccc',
+    colour:'#827996',
     electionForecast:'UUP',
-    secondaryColour:'#999999'
+    secondaryColour:'#443e71'
   }
 };
 
