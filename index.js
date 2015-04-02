@@ -108,6 +108,15 @@ var data = {
     colour:'#cccccc',
     electionForecast:'SDLP',
     secondaryColour:'#999999'
+  },
+  'uup':{
+    short:'UUP',
+    full:'UUP',
+    class:'uup',
+    populous:'UUP',
+    colour:'#cccccc',
+    electionForecast:'UUP',
+    secondaryColour:'#999999'
   }
 };
 
