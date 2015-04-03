@@ -114,9 +114,9 @@ var data = {
     full:'UUP',
     class:'uup',
     populous:'UUP',
-    colour:'#827996',
+    colour:'#6da8e1',
     electionForecast:'UUP',
-    secondaryColour:'#443e71'
+    secondaryColour:'#1369bf'
   }
 };
 
