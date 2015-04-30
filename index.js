@@ -175,6 +175,7 @@ module.exports = (function(){
     populousToFullName:converter('full','populous'),
     fullNameToCode:converter('code','full'),
     electionForecastToCode:converter('code','electionForecast'),
+    paToCode:converter('code','pa'),
     converter:converter
   };
 }(data));
