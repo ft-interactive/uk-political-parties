@@ -167,6 +167,9 @@ function converter(to,from){
 module.exports = (function(){
   return {
     data: data,
+    isKnownParty: function(code) {
+      return data.hasOwnProperty(code);
+    },
     fullName:converter('full'),
     shortName:converter('short'),
     className:converter('class'),
