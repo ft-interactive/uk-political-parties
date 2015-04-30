@@ -166,6 +166,7 @@ function converter(to,from){
 
 module.exports = (function(){
   return {
+    data: data,
     fullName:converter('full'),
     shortName:converter('short'),
     className:converter('class'),
