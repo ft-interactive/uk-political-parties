@@ -134,8 +134,10 @@ var data = {
     secondaryColour:'#9cb157'
   },
   'uup':{
+    id: 'uup',
     short:'UUP',
     full:'UUP',
+    pa: 'UUP',
     class:'uup',
     populous:'UUP',
     colour:'#6da8e1',
