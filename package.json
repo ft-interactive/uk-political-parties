@@ -1,6 +1,5 @@
 {
   "name": "uk-political-parties",
-  "version": "1.0.0",
   "description": "resolve/ normalise UK political party names",
   "main": "index.js",
   "scripts": {
