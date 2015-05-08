@@ -30,9 +30,9 @@ var data = {
     pa: 'LD',
     class:'lib-dem',
     populous:'Lib Dem',
-    colour:'#ffc660',
+    colour:'#f0a330',
     electionForecast:'Liberal Democrats',
-    secondaryColour:'#dba436'
+    secondaryColour:'#c68024'
   },
   'green':{
     id: 'green',
@@ -63,7 +63,7 @@ var data = {
     pa: 'SNP',
     class:'snp',
     populous:'SNP',
-    colour:'#9E9E9E',
+    colour:'#f2d92d',
     electionForecast:'SNP',
     secondaryColour:'#787878'
   },
