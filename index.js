@@ -65,7 +65,7 @@ var data = {
     populous:'SNP',
     colour:'#f2d92d',
     electionForecast:'SNP',
-    secondaryColour:'#787878'
+    secondaryColour:'#99891b'
   },
   'dup':{
     id: 'dup',
